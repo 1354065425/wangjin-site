@@ -1,6 +1,6 @@
 /**
  * 王金的简历资料。工作与教育信息依据用户提供的《王金简历.pdf》；
- * Whisper、Ultralytics YOLO 和 Jetson 实践依据用户补充及其本地项目记录整理。
+ * Whisper、Ultralytics YOLO 和 Jetson 工作项目依据用户补充及其本地项目记录整理。
  * 修改这里即可更新网站；PDF 下载文件需另行同步更新 public/resume.pdf。
  * 原简历的“工作时长 3 年”与任职日期不一致，因此未展示总年限。
  */
@@ -14,13 +14,13 @@ export const resume = {
     availability: '求职方向：Python',
     greeting: '你好，我是',
     tagline: '从数据到模型，连接真实场景。',
-    introduction: '在视觉工作项目中负责图像预处理、检测与分类模型训练及 TensorRT 推理模型转换；另围绕中文语音识别、Ultralytics YOLO 和 Jetson 设备数据接入开展技术实践。',
-    about: '在视觉工作项目中承担数据标注、模型训练与推理模型转换；在语音识别技术实践中构建音频预处理、Whisper 微调、CER 评估和推理服务流程，并持续探索视觉模型与设备接口的衔接。',
+    introduction: '参与视频监控、隧道漏缆识别、中文语音识别及 Jetson 设备接入等工作项目，负责数据处理、模型训练、推理模型转换与接口开发。',
+    about: '工作项目覆盖视觉检测、语音识别与边缘设备接入：开展图像和音频数据处理、目标检测与分类模型训练，完成 Whisper 微调及 CER 评估，并参与推理服务与设备数据接口开发。',
   },
   skills: [
     {
       title: '视觉算法',
-      description: '目标检测、图像分类与关键点任务实践。',
+      description: '目标检测、图像分类与关键点任务经验。',
       items: ['OpenCV', 'PyTorch', 'YOLOX', 'Ultralytics YOLO11', 'ResNet50'],
     },
     {
@@ -30,7 +30,7 @@ export const resume = {
     },
     {
       title: '推理与设备接入',
-      description: '模型转换、推理服务与 Jetson 数据接收接口原型。',
+      description: '模型转换、推理服务与 Jetson 设备数据接入。',
       items: ['TensorRT', 'CTranslate2', 'Faster-Whisper', 'Jetson', '面向 C++ 的模型转换'],
     },
     {
@@ -43,7 +43,7 @@ export const resume = {
     {
       title: '中文语音识别与 Whisper 微调',
       category: '语音识别 / 模型微调',
-      year: '技术实践',
+      year: '工作项目',
       description: '面向中文语音识别任务，搭建音频重采样、VAD 切分、标注转换及训练/验证数据构建流程；基于 Whisper-small 进行微调，并使用字符错误率（CER）开展验证。',
       contribution: '将 Label Studio 标注转换为 JSONL 数据，结合 Faster-Whisper 与 CTranslate2 构建推理服务，并适配 CPU/CUDA 运行环境。',
       technologies: ['Whisper-small', 'Transformers', 'Silero VAD', 'CTranslate2', 'FastAPI'],
@@ -68,19 +68,19 @@ export const resume = {
       url: '',
     },
     {
-      title: 'Ultralytics YOLO 视觉任务实践',
+      title: 'Ultralytics YOLO 视觉任务开发',
       category: '视觉模型 / 检测与关键点',
-      year: '技术实践',
+      year: '工作项目',
       description: '围绕 YOLO11 图像检测与关键点任务，梳理推理结果的 YOLO TXT 标签导出，以及 LabelMe 关键点标注、visibility 字段和可视化检查流程。',
-      contribution: '准备室内外分类数据及 YOLO11 分类训练配置，形成从数据整理到模型调用的实践方案。',
+      contribution: '整理室内外分类数据并准备 YOLO11 分类训练配置，衔接数据整理、模型训练与调用流程。',
       technologies: ['Ultralytics YOLO11', 'YOLO TXT', '关键点标注', '图像分类'],
       url: '',
     },
     {
       title: 'Jetson 边缘设备数据接入',
-      category: '边缘设备 / 接口原型',
-      year: '技术实践',
-      description: '围绕 Jetson 开发板的数据回传需求，编写 FastAPI 接收接口原型，定义设备时间、状态、详情与 Base64 图像字段。',
+      category: '边缘设备 / 数据接入',
+      year: '工作项目',
+      description: '围绕 Jetson 开发板的数据回传需求，编写 FastAPI 数据接收接口，定义设备时间、状态、详情与 Base64 图像字段。',
       contribution: '设计图像解码与保存流程，为后续设备联调和视觉服务集成准备接口基础。',
       technologies: ['Jetson', 'FastAPI', 'Python', 'Base64 图像'],
       url: '',

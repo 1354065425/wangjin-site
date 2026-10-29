@@ -219,7 +219,7 @@ function App() {
               number="02"
               eyebrow="SELECTED WORK"
               title="项目经历"
-              description={resume.templateMode ? '选择最能体现你思考、行动与结果的项目。示例卡片可自由增删。' : '围绕视觉检测、中文语音识别与边缘设备的项目和技术实践。'}
+              description={resume.templateMode ? '选择最能体现你思考、行动与结果的项目。示例卡片可自由增删。' : '视觉检测、中文语音识别与边缘设备接入相关工作项目。'}
             />
             <div className="project-list">
               {resume.projects.map((project, index) => (
@@ -256,7 +256,7 @@ function App() {
               number="03"
               eyebrow="EXPERIENCE"
               title="工作经历"
-              description={resume.templateMode ? '把职责写具体，把真实成果写清楚。也可以替换为实习或实践经历。' : '以下是我相关的工作和实践经历。'}
+              description={resume.templateMode ? '把职责写具体，把真实成果写清楚。也可以替换为实习或实践经历。' : '我的任职经历与主要职责。'}
             />
             <div className="experience-list">
               {resume.experience.map((job, index) => (
