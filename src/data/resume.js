@@ -11,7 +11,7 @@ export const resume = {
         monogram: 'WJ',
         role: 'Python · 视觉算法 · 语音识别',
         location: '期望城市：成都',
-        availability: '求职方向：Python',
+        availability: '求职方向：Python | 期望薪资：12K-15K',
         greeting: '你好，我是',
         tagline: '从数据到模型，连接真实场景。',
         introduction: '参与视频监控、隧道漏缆识别、人员姿态识别、中文语音识别及 Jetson 设备接入等项目，负责数据处理、模型训练、推理模型转换与接口开发。',
