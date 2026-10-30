@@ -4,8 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node scripts/build-resume.mjs --pdf-only && vite",
+    "build": "node scripts/build-resume.mjs",
+    "pdf": "node scripts/build-resume.mjs --pdf-only",
     "preview": "vite preview"
   },
   "dependencies": {

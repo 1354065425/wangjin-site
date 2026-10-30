@@ -1,4 +1,6 @@
 node_modules/
+.venv-resume/
+work/
 dist/
 .DS_Store
 *.local

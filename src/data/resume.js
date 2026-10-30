@@ -1,7 +1,7 @@
 /**
  * 王金的简历资料。工作与教育信息依据用户提供的《王金简历.pdf》；
  * Whisper、Ultralytics YOLO 和 Jetson 工作项目依据用户补充及其本地项目记录整理。
- * 修改这里即可更新网站；PDF 下载文件需另行同步更新 public/resume.pdf。
+ * 修改这里后运行 npm run build，网站和 PDF 简历会从同一份内容重新生成。
  * 原简历的“工作时长 3 年”与任职日期不一致，因此未展示总年限。
  */
 export const resume = {
